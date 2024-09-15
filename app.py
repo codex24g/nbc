@@ -1,11 +1,9 @@
 import logging
 import os
-from flask import Flask, request, render_template, jsonify
 from PIL import Image, ImageOps
 import torch
 import json
 import io
-from pyngrok import ngrok
 import uuid
 import numpy as np
 from torchvision import transforms
